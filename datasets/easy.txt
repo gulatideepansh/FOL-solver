@@ -1,0 +1,5 @@
+R(a) -> R(a)
+R(a) -> exists x. R(x)
+(forall x. R(x)) -> R(a)
+(R(a) & S(a)) -> R(a)
+R(a) -> (R(a) | S(a))

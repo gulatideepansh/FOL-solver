@@ -1,0 +1,5 @@
+(forall x. (R1(x) -> R2(x))) -> ((forall x. R1(x)) -> (forall x. R2(x)))
+(forall x. (R1(x) -> (R2(x) -> R3(x)))) -> ((forall x. R1(x)) -> ((forall x. R2(x)) -> (forall x. R3(x))))
+(forall x. exists y. (R1(x) & R2(y))) -> ((forall x. R1(x)) & (exists x. R2(x)))
+not (forall x. R(x)) -> exists x. not R(x)
+not (exists x. R(x)) -> forall x. not R(x)

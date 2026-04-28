@@ -1,0 +1,7 @@
+R1(x)
+not R(x)
+R1(x) & R2(y)
+R1(x) -> R2(x)
+forall x. R(x)
+exists y. (R1(x) & R2(y))
+forall x. exists y. (R1(x) & R2(y))

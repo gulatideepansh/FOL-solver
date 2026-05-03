@@ -9,6 +9,7 @@ DATASETS = [
     "datasets/easy.txt",
     "datasets/medium.txt",
     "datasets/hard.txt",
+    "datasets/TPTP.txt",
 ]
 
 
